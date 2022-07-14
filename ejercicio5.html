@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=º, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <style>
+        h1{
+            font-size:60px;
+        }
+        h2{
+            font-size:45px;
+        }
+        p{
+            font-family: Arial;
+            font-size: 30px;
+        }
+        div{
+            margin:auto;
+            width:700px;
+        }
+        div:hover{
+            border:10px solid black;
+        }
+        div.special{
+            background-image: url("imágenes/rana.png");
+            background-repeat:repeat-x;
+            background-color:aqua;
+            width:700px;
+            height:250px;
+        }
+        body{
+            text-align:center;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 style=color:green>Una imagen vale más que mil palabras</h1>
+    <h2 style=color:green>(Imágenes y backgrounds)</h2>
+    <p>Imagen con enlace absoluto externo</p>
+    <div>
+        <a href="https://pixabay.com/" target="_blank"> <img style=width:700px src="https://cdn.pixabay.com/photo/2015/09/06/20/29/sport-927759_960_720.jpg" alt="Imagen de URL absoluto"> </a>
+    </div>
+    <p>Imagen con enlace relativo</p>
+    <div>
+        <a href="https://pixabay.com/" target="_blank"><img style=width:700px src="imágenes/Una-rana-verde-de-ojos-rojos-en-planta-iStock.jpg" alt="imagen de URL relativo"> </a>
+    </div>
+    <p>Imagen de fondo repetida</p>
+    <div class="special"> 
+    </div>
+</body>
+</html>
